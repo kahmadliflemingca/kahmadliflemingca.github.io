@@ -15,7 +15,7 @@ body {
   text-align: center;
 }
 
-/* Style the top navigation bar */
+/* Style the top navigation bar inspo: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_topnav  */
 .topnav {
   overflow: hidden;
   background-color: lightseagreen;
@@ -30,7 +30,7 @@ body {
   text-align: center;
   padding: 32px 32px;
   text-decoration: underline;
-  font-style: Sans-serif;
+  font-style: serif;
   font-size: large;
   
 }
@@ -44,11 +44,11 @@ body {
 /* Style MENU  ( inspired -- https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp) */
 /* The sidebar menu */
 .sidenav {
-  height: 100%;
-  width: 160px; /* Set the width of the sidebar */
-  position: fixed; 
+  height: 400px;
+  width: 200px; /* Set the width of the sidebar */
+  position: relative; 
   z-index: 1; 
-  top: 90; 
+  top: 100; 
   left: 0;
   background-color: teal; 
   overflow-x: hidden; /* Disable horizontal scroll */
@@ -60,7 +60,7 @@ body {
 .sidenav a {
   padding: 16px 16px 16px 16px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 20px;
   color: #818181;
   display: block;
 }
@@ -72,17 +72,37 @@ body {
 
 /*Style menu ends*/
 
-/* Create columns  to each other */
+/* Create box  */
 .column {
-  float: right;
-  width: 44%;
-  padding: 15px;
+	
+  background-color: white;
+  width: 700px;
+  border: 10px solid teal;
+  padding: 70px 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 300px;
+  margin-left: 650px;
+  color: teal;
+  font-weight: bold;
+  text-align: center;
+  
 }
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+
+.middle {
+	
+  background-color: white;
+  width: 700px;
+  border: 15px solid teal;
+  padding: 100px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 200px;
+  margin-left: 550px;
+  color: PaleVioletRed;
+  font-weight: bold;
+  text-align: center;
+  
 }
 
 /* Style  h1 */
@@ -96,9 +116,12 @@ body {
 
 /* Style  p */
 
-p.b {
-  font: italic small-caps bold 26px/30px Georgia, serif;
+.large {
+  font: serif;
   color: green;
+  font-family: Arial;
+  font-size: 140%;
+
 }
   
   /* Style  ficcaption */
@@ -106,6 +129,7 @@ p.b {
 	 color: green;
 	 font-style: italic;
 	 font-weight:bold;
+text-align: center;
 	 
  }
   /* Style  h2 in index */
@@ -115,12 +139,57 @@ p.b {
 	color: green;
 	text-align: center;
 }
-	
+
+/* Style   */	
+.inspo
+ { font: serif;
+  color: green;
+  font-family: Arial;
+  font-size: 140%;
+}
+
+/* Style  p */
+
+.travel {
+  color: black;
+  font-family: Arial;
+  font-style: italic;
+  text-indent: 50px;
+  font-size: 150%;
+  font-weight: bold;
+}
+/* Style  h2 */
+.travelforh2 {
+  color: green;
+  font-family: serif;
+  font-style: italic;
+  text-indent: 50px;
+  font-size: 550%;
+  text-align: center;
+  }
+/* Style I love being nature paragraph: inspo https://www.w3schools.com/css/tryit.asp?filename=trycss_border_round */
+p.tree {
+  
+  border: 3px solid green;
+  border-radius: 28px;
+  padding: 25px;
+  text-align: center;
+  color: teal;
+  font-size: 50px;
+  font-style: italic;
+  
+}
+
+/* Cnter images inspo  https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_center */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
 
 
-
-
-
+  
 </style>
 </head>
 <body>
