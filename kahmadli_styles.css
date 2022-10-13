@@ -1,10 +1,10 @@
-{
-  box-sizing: border-box;
-}
 
 body {
   margin: 0;
   background-color: powderblue;
+}
+{
+  box-sizing: border-box;
 }
 
 
@@ -47,7 +47,7 @@ body {
   width: 200px; /* Set the width of the sidebar */
   position: relative; 
   z-index: 1; 
-  top: 100; 
+  top: 1px; 
   background-color: teal; 
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
@@ -194,9 +194,3 @@ img {
   margin-right: auto;
   
 }
-
-
-  
-</style>
-</head>
-<body>
