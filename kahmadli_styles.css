@@ -30,7 +30,6 @@ body {
   text-align: center;
   padding: 32px 32px;
   text-decoration: underline;
-  font-style: serif;
   font-size: large;
   
 }
@@ -49,7 +48,6 @@ body {
   position: relative; 
   z-index: 1; 
   top: 100; 
-  left: 0;
   background-color: teal; 
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
@@ -128,7 +126,6 @@ font-size: 400%;
 /* Style  p */
 
 .large {
-  font: serif;
   color: green;
   font-family: Arial;
   font-size: 140%;
@@ -146,14 +143,13 @@ text-align: center;
   /* Style  h2 in index */
   
 .forh2 {
-	font-style : serif;
 	color: green;
 	text-align: center;
 }
 
 /* Style   */	
 .inspo
- { font: serif;
+ {
   color: green;
   font-family: Arial;
   font-size: 140%;
