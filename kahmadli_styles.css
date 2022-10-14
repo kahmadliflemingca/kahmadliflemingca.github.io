@@ -1,9 +1,8 @@
-
+/* Style the body. Inspo: https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_background-image&preval=conic-gradient(red,%20yellow,%20green)*/
 body {
   margin: 0;
-  background-color: powderblue;
+  background-image: radial-gradient(darksalmon, teal, lightcyan);
 }
-
 
 
 /* Style the header */
@@ -67,6 +66,20 @@ body {
 }
 
 /*Style menu ends*/
+
+/*Style p */
+h3.earl { 
+font-size: 35px;
+line-height: 2em;
+color: black;
+font-style: oblique;
+position: absolute;
+left:300px; 
+top:500px;
+}
+
+
+
 
 /* Create box  */
 .column {
@@ -132,10 +145,11 @@ font-size: 400%;
   
   /* Style  ficcaption */
  .fig {
-	 color: green;
+	 color: violet;
 	 font-style: italic;
 	 font-weight:bold;
 text-align: center;
+font-size: 20px;
 	 
  }
   /* Style  h2 in index */
