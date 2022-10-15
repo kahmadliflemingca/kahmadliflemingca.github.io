@@ -1,6 +1,7 @@
 /* Style the body. Inspo: https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_background-image&preval=conic-gradient(red,%20yellow,%20green)*/
 body {
-  margin: 0;
+   margin-left: auto;
+  margin-right: auto;
   background-image: radial-gradient(darksalmon, teal, lightcyan);
 }
 
@@ -27,6 +28,7 @@ body {
 .topnav {
   overflow: hidden;
   background-color: lightseagreen;
+  margin : auto;
 }
 
 
@@ -45,8 +47,9 @@ body {
 
 /* Change color on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: salmon;
   color: green;
+  font-size: 20px;
 }
 
 /* Style MENU  ( inspired -- https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp) */
@@ -75,6 +78,9 @@ body {
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
   color: #f1f1f1;
+  font-size: 30px;
+  background-color: salmon;
+  
 }
 
 /*Style menu ends*/
@@ -196,5 +202,4 @@ img {
   margin-right: auto;
   
 }
-
 
