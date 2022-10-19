@@ -206,10 +206,9 @@ p.tree {
   width:500px;
   height: 667px;
   position: relative;
-  bottom: 0;
+  bottom: 10;
   left: 0;
-  width: 300px;
-  padding: 40px 1200px 100px 5px;
+  padding: 10px 1200px 60px 20px;
 }
 
 .img2{
@@ -251,9 +250,6 @@ p.tree {
   width:500px;
   height: 667px;
   position: relative;
-  bottom: 0;
-  left: 0;
-  width: 300px;
   padding: 40px 1200px 100px 5px;
   
 
