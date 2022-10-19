@@ -1,3 +1,4 @@
+/* Created by Khazana AHMADLI on Oct 19, 2022*/
 /* Style the body. Inspo: https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_background-image&preval=conic-gradient(red,%20yellow,%20green)*/
 body {
    margin-left: auto;
@@ -157,9 +158,9 @@ body {
 	 color: violet;
 	 font-style: italic;
 	 font-weight:bold;
-text-align: center;
+ text-align: right;
 font-size: 20px;
-padding :3px;
+
 	 
  }
 
@@ -196,15 +197,19 @@ p.tree {
   
 }
 
-/*  Style my images. inspo  https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_center */
+/* Cnter images inspo  https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_center */
 
 .img1{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width:400px;
-  height: 500px;
-
+  width:500px;
+  height: 667px;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 300px;
+  padding: 40px 1200px 100px 5px;
 }
 
 .img2{
@@ -249,7 +254,7 @@ p.tree {
   bottom: 0;
   left: 0;
   width: 300px;
-  padding: 50px 150px 150px 5px;
+  padding: 40px 1200px 100px 5px;
   
 
 }
